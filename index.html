@@ -114,7 +114,7 @@ footer{background:var(--dark);color:#cfd3d5;padding:28px 0;font-size:.9rem}
 
 <section id="contact"><div class="wrap"><h2>Get in touch today</h2>
 <div class="contact">
-<form action="https://formspree.io" method="POST">
+<form action="https://formspree.io/f/mgaoqwbe" method="POST">
 <label for="e">Email address *</label><input id="e" type="email" required>
 <label for="m">Message * <small>(mention if you’d like a Zoom call)</small></label><textarea id="m" rows="5" required></textarea>
 <p><button class="btn" type="submit">Submit form</button></p><div class="msg" id="msg" role="status"></div></form>
@@ -125,9 +125,6 @@ footer{background:var(--dark);color:#cfd3d5;padding:28px 0;font-size:.9rem}
 </main>
 
 <footer><div class="wrap">© 2026 Yassin’ Social Media Marketing</div></footer>
-<script>
-document.getElementById('f').addEventListener('submit',function(ev){ev.preventDefault();var b='Name: '+n.value+'\nEmail: '+e.value+'\n\n'+m.value;document.getElementById('msg').textContent='Opening your email app to send your message…';location.href='mailto:yassinajiib@gmail.com?subject='+encodeURIComponent('Website enquiry from '+n.value)+'&body='+encodeURIComponent(b);});
-var links=document.querySelectorAll('nav a');
 addEventListener('scroll',function(){var y=scrollY+120,cur=links[0];links.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));if(s&&s.offsetTop<=y)cur=a;});links.forEach(function(a){a.classList.toggle('on',a===cur)});});
 </script>
 </body>
