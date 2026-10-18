@@ -114,10 +114,15 @@ footer{background:var(--dark);color:#cfd3d5;padding:28px 0;font-size:.9rem}
 
 <section id="contact"><div class="wrap"><h2>Get in touch today</h2>
 <div class="contact">
-<form action="https://formspree.io/f/mgaoqwbe" method="POST">
-<label for="e">Email address *</label><input id="e" type="email" required>
-<label for="m">Message * <small>(mention if you’d like a Zoom call)</small></label><textarea id="m" rows="5" required></textarea>
-<p><button class="btn" type="submit">Submit form</button></p><div class="msg" id="msg" role="status"></div></form>
+  <form action="https://formspree.io/f/mgaoqwbe" method="POST">
+  <label for="e">Email address *</label>
+  <input id="e" type="email" name="email" required>
+
+  <label for="m">Message *</label>
+  <textarea id="m" name="message" required></textarea>
+
+  <button class="btn" type="submit">Submit</button>
+</form>
 <div><div style="margin-bottom:16px"><svg viewBox="0 0 400 220" style="width:100%;height:auto;display:block" role="img" aria-label="Simple map showing Auckland, New Zealand, between the Waitemata and Manukau harbours"><rect width="400" height="220" fill="#e9e6df"/><path d="M0 0 H400 V70 C360 62 330 80 300 72 C270 64 250 84 225 82 C200 80 185 60 150 56 C110 52 60 64 0 40Z" fill="#bcd9ee"/><path d="M0 150 C40 140 70 165 100 175 C130 185 150 215 140 220 H0Z" fill="#bcd9ee"/><path d="M400 150 C370 160 350 190 360 220 H400Z" fill="#bcd9ee"/><path d="M225 82 C240 120 232 160 210 220" fill="none" stroke="#f6c28b" stroke-width="5"/><path d="M150 56 C170 100 180 140 190 220" fill="none" stroke="#fff" stroke-width="3"/><text x="60" y="28" font-family="Arial" font-size="11" fill="#4a7ea5" letter-spacing="2">WAITEMATA HARBOUR</text><text x="14" y="196" font-family="Arial" font-size="10" fill="#4a7ea5" letter-spacing="2">MANUKAU</text><path d="M192 118 C176 98 180 80 192 78 C204 76 208 94 192 118Z" fill="#f96d4f" stroke="#fff" stroke-width="2"/><circle cx="192" cy="92" r="5" fill="#fff"/><text x="212" y="106" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#373f43">Auckland</text><text x="212" y="124" font-family="Arial" font-size="11" fill="#555">New Zealand</text></svg>
 <a href="https://www.google.com/maps/search/?api=1&query=Auckland+New+Zealand" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;color:var(--accent)">Open Auckland in Google Maps →</a></div><h2 style="font-size:1.4rem">Location</h2>
 <p>Auckland, New Zealand<br>Email: <a href="mailto:yassinajiib@gmail.com">yassinajiib@gmail.com</a><br>Phone: <a href="tel:+64272798578">+64 27 279 8578</a></p></div>
